@@ -1,13 +1,11 @@
 # NCM 转 MP3/FLAC 转换器 · 完整安装使用指南
 
 > 完全离线运行，支持图形菜单界面，支持导出到USB存储，适合无信号环境使用。
-> v2.3.1 — 修复 bytes 中文语法错误 / 修复 import os 丢失 / 注释无 Markdown 标题风险
+
 
 ---
 
 ## 第一部分：安装 Termux
-
-> 不要从 Google Play 安装，那个版本已停止维护！
 
 1. 用手机浏览器打开：`https://f-droid.org/packages/com.termux/`
 2. 下载并安装 Termux APK
@@ -803,14 +801,3 @@ check_already_converted() 会同时扫描以下目录中的 .mp3 / .flac 文件�
 | 报错 NameError: os | 旧版脚本混入，执行 rm ~/ncm2mp3.py 后重新下载 |
 | 报错 SyntaxError: bytes | 旧版脚本混入，执行 rm ~/ncm2mp3.py 后重新下载 |
 
----
-
-## 版本历史
-
-| 版本 | 更新内容 |
-|------|---------|
-| v2.3.1 | 修复 bytes 中文语法错误；修复 import os 丢失；注释改为 ==== 格式避免 Markdown 误渲染 |
-| v2.3 | 新增每 N 首暂停确认功能；新增优雅中止；新增 aborted 状态标记 |
-| v2.2 | 新增息屏保持运行；新增转换完成系统通知 |
-| v2.1 | 新增自动跳过已存在文件；新增 USB OTG 导出支持 |
-| v2.0 | 半图形化界面（dialog）；支持 MP3/FLAC 标签写入 |
