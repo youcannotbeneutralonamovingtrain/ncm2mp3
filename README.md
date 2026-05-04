@@ -7,8 +7,6 @@
 
 ## Part 1: Installing Termux
 
-> Do NOT install from Google Play — that version is no longer maintained!
-
 1. Open the following URL in your phone's browser: `https://f-droid.org/packages/com.termux/`
 2. Download and install the Termux APK
 3. Once installed, open Termux
