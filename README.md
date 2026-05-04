@@ -1,7 +1,7 @@
 # NCM to MP3/FLAC Converter · Complete Installation & Usage Guide
 
 > Runs fully offline, features a graphical menu interface, and supports exporting to USB storage. Suitable for use in environments without network signal.
-> v2.3.1 — Fixed bytes Chinese-character syntax error / Fixed missing import os / Comments rewritten to avoid Markdown heading conflicts
+
 
 ---
 
